@@ -86,6 +86,8 @@ public class UsersFragment extends Fragment {
 
                 }
 
+                String teste = hashMaps.toString();
+
                 hashMaps.add(map);
 
                 String[] de = {"name", "username", "email", "street", "suite", "city", "lat", "lng", "id"};
