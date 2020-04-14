@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.fabiolucas.faculdade.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home"
+
+    />
+
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.fabiolucas.faculdade.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.fabiolucas.faculdade.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_albums"
+        android:name="com.fabiolucas.faculdade.ui.albums.AlbumsFragment"
+        android:label="@string/menu_albums"
+        tools:layout="@layout/fragment_albums" />
+
+    <fragment
+        android:id="@+id/nav_comments"
+        android:name="com.fabiolucas.faculdade.ui.comments.CommentsFragment"
+        android:label="@string/menu_comments"
+        tools:layout="@layout/fragment_comments" />
+
+    <fragment
+        android:id="@+id/nav_photos"
+        android:name="com.fabiolucas.faculdade.ui.photos.PhotosFragment"
+        android:label="@string/menu_photos"
+        tools:layout="@layout/fragment_photos" />
+
+    <fragment
+        android:id="@+id/nav_posts"
+        android:name="com.fabiolucas.faculdade.ui.posts.PostsFragment"
+        android:label="@string/menu_posts"
+        tools:layout="@layout/fragment_posts" />
+
+    <fragment
+        android:id="@+id/nav_todos"
+        android:name="com.fabiolucas.faculdade.ui.todos.TodosFragment"
+        android:label="@string/menu_todos"
+        tools:layout="@layout/fragment_todos" />
+
+    <fragment
+        android:id="@+id/nav_users"
+        android:name="com.fabiolucas.faculdade.ui.users.UsersFragment"
+        android:label="@string/menu_users"
+        tools:layout="@layout/fragment_users" />
+
+
+</navigation>
